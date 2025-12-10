@@ -40,5 +40,17 @@ public class Factorial {
 
 	    return num;
 	}
+	
+	private static long factorialBucle(int n) {
+		//TODO: crea tu el contenido de esta función... si eres capaz
+	
+		long resultado=0;
+		
+		for (int i = 1; i <= n; i++) {
+            resultado = resultado * i;
+        }
+
+		return resultado; 
+	}
 
 }
